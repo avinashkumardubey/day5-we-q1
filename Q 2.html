@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Masai navbar</title>
+    <style>
+        #navbar{
+            width:100%;
+           
+            height: 60px;
+            justify-content: space-evenly;
+            display:flex;
+        }
+        #navbar>div:first-child{
+            width:10%;
+            height:100%;
+            
+        }
+        #navbar>div:last-child{
+            width:70%;
+            height:100%;
+           
+            display:flex;
+            justify-content:space-around;
+        }
+        #navbar > div{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            text-transform:uppercase;
+            font-size:14px;
+        }
+        p+div{
+            display:flex;
+            background-color: #f2fdff;
+            justify-content:center;
+            align-items:center;
+            padding: 0px 20px;
+        }
+        p+div>img{
+            width:20px;
+            height:20px;
+            margin:left;
+        }
+        #navbar>div>button{
+            border:1px solid red;
+            background-color:blue;
+            height:40px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+    
+     <div>
+         <img src="https://nrinews24x7.com/wp-content/uploads/2019/09/maasihighschool.png" alt="masai-logo"/></div>
+     <div>
+         <select>
+             <option value="Cources"></option>
+         </select>
+         <p>fee & isa</p> 
+         <p>about us</p>
+         <p>hire from us</p>
+         <p>haq</p>
+         <p>events</p>
+        <div>
+            <p>Refer & earn</p>
+            <img src="https://www.masaischool.com/referral" alt="">
+        </div>
+        <button>Login</button>
+     </div>
+
+    </div>
+</body>
+</html>
